@@ -1,6 +1,6 @@
 import axios from 'axios'
 // create an axios instance
-let baseURL = 'http://10.10.35.21:8082/cgi/';
+let baseURL = 'http://10.10.35.137:8082/cgi/';
 //将URL地址前面相同的一段封装
 const $http = axios.create({
   baseURL: baseURL
